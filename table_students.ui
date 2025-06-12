@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>table_students</class>
+ <widget class="QDialog" name="table_students">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1439</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>1401</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>first name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>family name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>date_of_birth</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>student ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>username</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>study year </string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>borrowed books</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="remove_student">
+   <property name="geometry">
+    <rect>
+     <x>852</x>
+     <y>548</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>remove student</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchBar">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>20</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>20</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>search bar:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
